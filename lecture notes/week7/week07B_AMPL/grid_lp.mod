@@ -1,0 +1,11 @@
+var T;
+var x_1 >= 0;
+var x_2 >= 0;
+var x_3 >= 0;
+minimize time: T;
+subject to T_1: T >= 10000*x_1;
+subject to T_2: T >= 5000*x_2;
+subject to T_3: T >= 10000/3*x_3;
+subject to T_max: T <= 4800;
+subject to C_max: 1000*x_1+1250*x_2+2000*x_3 <= 1500;
+subject to x_sum: x_1+x_2+x_3 = 1;

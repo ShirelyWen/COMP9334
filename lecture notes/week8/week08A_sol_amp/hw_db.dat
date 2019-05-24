@@ -1,0 +1,18 @@
+set LOCATION := LOCATION_1 LOCATION_2 LOCATION_3;
+set DB := DB_1 DB_2 DB_3 DB_4 DB_5 DB_6 DB_7 DB_8; 
+
+param:   dsize     time :=
+LOCATION_1    10      0.1
+LOCATION_2    15      0.3
+LOCATION_3   100      0.8;
+
+param:   fsize   freq := 
+DB_1     7       10
+DB_2     2        4
+DB_3     3        5
+DB_4     5        6
+DB_5     3        2
+DB_6     6        3
+DB_7     3        4
+DB_8     5        3;
+

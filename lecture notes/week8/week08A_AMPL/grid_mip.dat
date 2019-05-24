@@ -1,0 +1,10 @@
+set COMP := COMP_1 COMP_2 COMP_3;
+
+param:   p         c      s :=
+COMP_1   1000      0.1    200
+COMP_2   2000      0.25   100
+COMP_3   3000      0.6     50;
+
+param Tmax := 4800;
+param Cmax := 1500;
+param N := 1e7; 

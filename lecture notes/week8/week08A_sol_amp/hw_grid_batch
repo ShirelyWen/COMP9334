@@ -1,0 +1,10 @@
+model hw_grid.mod;
+data hw_grid.dat;
+option solver cplex;
+solve;
+display x;
+display y;
+display T;
+display C;
+
+

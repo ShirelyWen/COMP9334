@@ -1,0 +1,11 @@
+model disjoint_hw.mod;
+data disjoint_hw.dat;
+option solver cplex;
+solve;
+display x1;
+display x2;
+
+
+
+
+

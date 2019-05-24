@@ -1,0 +1,7 @@
+model hw_db.mod;
+data hw_db.dat;
+option solver cplex;
+solve;
+display x;
+display T;
+

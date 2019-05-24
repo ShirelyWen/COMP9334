@@ -1,0 +1,9 @@
+model grid_mip.mod;
+data grid_mip.dat;
+option solver cplex;
+#option solver cplexamp;
+solve;
+display x;
+display y;
+display T;
+display sum {i in COMP} (N * c[i] * x[i] / p[i] + s[i] * y[i]);

@@ -1,0 +1,9 @@
+model grid_lp.mod;
+#option solver cplexamp;
+option solver cplex;
+solve;
+display x_1;
+display x_2;
+display x_3;
+display T;
+

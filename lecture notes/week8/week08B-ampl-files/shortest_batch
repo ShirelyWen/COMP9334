@@ -1,0 +1,7 @@
+model shortest.mod;
+data shortest.dat;
+#option solver cplexamp;
+option solver cplex;
+option omit_zero_rows 1;
+solve;
+display x;

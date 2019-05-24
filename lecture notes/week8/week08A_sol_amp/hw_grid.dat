@@ -1,0 +1,9 @@
+set COMP := COMP_1 COMP_2 COMP_3;
+
+param:   speed     cost   setup :=
+COMP_1   1000      0.1    500
+COMP_2   2000      0.3    100
+COMP_3   3000      0.8    0;
+
+param Tmax := 4000;
+param P := 1e7; 

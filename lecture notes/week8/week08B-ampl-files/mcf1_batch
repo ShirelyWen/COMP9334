@@ -1,0 +1,5 @@
+model mcf1.mod;
+data mcf1.dat;
+option solver cplex;
+solve;
+display x;
